@@ -2,8 +2,9 @@
 #...
 
 function git-interactive() {
-
-   ### Git-Interactive-Command
+   ###############################
+   ### Git-Interactive-Command ###
+   ###############################
    # By: Samuel Sampaio <samukasmk@gmail.com> [20130723]
    
    local quit

@@ -46,10 +46,18 @@ function git-interactive() {
 ```
 
 2. by single script:
+
 ```bash
+# Clone this project
 git clone https://github.com/samukasmk/git-interactive-command.git
 
+# Access this project path cloned
 cd git-interactive-command
-sudo mv git-interactive /usr/bin
+
+# Move copy the script: git-interactive
+sudo cp git-interactive /usr/bin
+
+# Change Owner and Permissions 
+sudo chown root:root /usr/bin/git-interactive
 sudo chmod 755 /usr/bin/git-interactive
 ```
